@@ -1,0 +1,5 @@
+-- CreateTable
+CREATE TABLE "MachineState" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "isOn" BOOLEAN NOT NULL
+);
