@@ -26,7 +26,7 @@ devDependencies:
   nodemon: 2.0.22
   prisma: 4.14.1
   ts-node: 10.9.1_tydl7nmgpnnj7p7e7qusgld26m
-  typescript: 5.0.4
+  typescript: 5.1.6
 
 packages:
 
