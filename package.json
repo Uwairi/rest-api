@@ -1,7 +1,7 @@
 {
   "name": "defect-backend",
   "version": "1.0.0",
-  "homepage": "https://localhost:8888/",
+  "homepage": "https://defectsystem.vercel.app/",
   "description": "",
   "main": "index.ts",
   "scripts": {
