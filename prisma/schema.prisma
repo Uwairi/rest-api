@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABAmongodb+srv://lethfinv25:L4ZkTGAZHkUqVMPV@cluster0.yxys4pj.mongodb.net/MonitoringRealTime?retryWrites=true&w=majoritySE_URL")
+}
+
+model MachineState {
+  id   Int     @id @default(autoincrement())
+  isOn Boolean
+}
+
+model ScanData {
+  id        Int      @id @default(autoincrement())
+  isDefect  Boolean
+  amount    Int
+  amount50  Int
+  createdAt DateTime
+}
